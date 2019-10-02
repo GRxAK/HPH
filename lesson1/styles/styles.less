@@ -1,0 +1,70 @@
+@paddingAll: 20px 120px;
+@bgColorOne: #290000;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, 
+a {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.conteyner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.logo h1 {
+	font-size: 28px;
+}
+
+header {
+	padding: @paddingAll;
+	display: grid;
+	background-color: @bgColorOne;
+	grid-template-columns: minmax(190px, 300px) 1fr;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+}
+
+nav a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+	align-self: center;
+}
+
+nav a:hover {
+	background-color: #ccc;
+	border-radius: 6px;
+}
+
+/* ARTICLE */
+
+article {
+	padding: @paddingAll;
+	background-color: @bgColorOne;
+	display: grid;
+	grid: 1fr 1fr 1fr / 1fr 1fr;
+}
+
