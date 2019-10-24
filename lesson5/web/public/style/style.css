@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .conteyner {
     display: flex;
@@ -8,9 +9,9 @@
     justify-content: center;
 }
 img {
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 3px;
-    box-shadow: 0 0 7px #666;
+    /* box-shadow: 0 0 7px #666; */
 }
 .openImg {
     width: 100%;
@@ -22,4 +23,59 @@ img {
     display: none;
     align-items: center;
     justify-content: center;
+}
+.gallery {
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+    justify-content: center;
+}
+.calculator {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+}
+input, button {
+    height: 40px;
+    padding: 3px;
+    margin: 3px;
+}
+button {
+    height: 40px;
+    padding: 3px 7px;
+    line-height: 1.5;
+}
+.calculator-result {
+    height: 40px;
+    padding: 3px 15px;
+    margin: 3px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    line-height: 2;
+}
+.calculator-equally {
+    padding: 3px 5px;
+    margin: 3px;
+}
+.recall {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+}
+/* контейнер с товарами */
+.goodsConteyner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.goodsCard {
+    margin: 15px 0;
 }
